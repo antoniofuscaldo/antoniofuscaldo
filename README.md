@@ -77,7 +77,7 @@
 ###
 
 <sub align="center" style="font-size: 10px; color: gray;">
-  © 2025 Antonio Fuscaldo | All rights reserved. <br><em>Any use, reproduction, distribution, modification, public performance, or reverse engineering of this code is strictly prohibited without prior written authorization.</em>
+  © 2016 - 2026 Antonio Fuscaldo | All rights reserved. <br><em>Any use, reproduction, distribution, modification, public performance, or reverse engineering of this code is strictly prohibited without prior written authorization.</em>
 </sub>
 
 ###

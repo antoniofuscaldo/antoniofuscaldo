@@ -50,9 +50,9 @@
 ## 5. Segnalazione di violazioni
 
 5.1 Canali ufficiali di segnalazione (privati e riservati):  
- a) Email diretta al Responsabile: `{{OWNER_CONTACT_EMAIL}}`.  
- b) Sistema di ticket interno (indicare il riferimento interno se esiste).  
- c) Se necessario e concordato, segnalazione al manager/HR o al Legal.  
+a) Email diretta al Responsabile: `{{OWNER_CONTACT_EMAIL}}`.  
+b) Sistema di ticket interno (indicare il riferimento interno se esiste).  
+c) Se necessario e concordato, segnalazione al manager/HR o al Legal.  
 5.2 Elementi da includere in una segnalazione:
 
 - Nome del segnalante (o indicare se anonimo)
@@ -194,9 +194,9 @@ WARNING: this document is a draft Code of Conduct. It does not constitute bindin
 ## 5. Reporting violations
 
 5.1 Official confidential reporting channels:  
- a) Direct email to Responsible: `{{OWNER_CONTACT_EMAIL}}`.  
- b) Internal ticketing system (specify internal reference if available).  
- c) If appropriate and agreed, escalate to manager/HR or Legal.  
+a) Direct email to Responsible: `{{OWNER_CONTACT_EMAIL}}`.  
+b) Internal ticketing system (specify internal reference if available).  
+c) If appropriate and agreed, escalate to manager/HR or Legal.  
 5.2 A report should include:
 
 - Reporter name (or indicate anonymous)

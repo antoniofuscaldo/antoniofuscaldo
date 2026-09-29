@@ -1,333 +1,299 @@
-# Index - Indice
+# Index
 
-- [IT - Italia/Europa](#it)
-- [EN - US/CA](#en)
-- [EN - International](#en-international)
-
-# Metadata (machine-readable YAML)
-
-license_version: "IT-EU-1.0"
-owner_name: "Antonio Fuscaldo"
-owner_type: "Individual"
-owner_contact_email: "{{OWNER_CONTACT_EMAIL}}"
-effective_date: "2025"
-jurisdiction: "Europe"
+- [English](#proprietary-software-license-agreement)
+- [Italiano](#contratto-di-licenza-per-software-proprietario)
 
 ---
 
-###### it
+## Proprietary Software License Agreement
 
-# LICENSE — IT / UE
-
-## Sommario esecutivo
-
-Il presente documento concede **nessun diritto** d'uso: tutti i diritti sul codice e sui materiali del repository sono riservati a Antonio Fuscaldo. Qualunque uso, copia, divulgazione, distribuzione, modifica, esecuzione pubblica, reverse engineering o creazione di opere derivate è vietato salvo espressa autorizzazione scritta del titolare.
-
-## 1. Definizioni
-
-1.1 **Owner**: la persona o entità proprietaria dei diritti indicata in `Antonio Fuscaldo`.  
-1.2 **Repository**: il repository privato Git (o altro sistema di versioning) contenente il Codice e la Documentazione.  
-1.3 **Codice**: codice sorgente, binari, script, file di configurazione, asset, documentazione tecnica e ogni altro materiale memorizzato nel Repository.  
-1.4 **Partecipante**: qualsiasi persona fisica o giuridica che abbia accesso al Repository (inclusi dipendenti, consulenti, contractor).  
-1.5 **Informazioni Riservate**: dati o informazioni non pubbliche contenute nel Repository, incluse informazioni tecniche, commerciali, e dataset contenenti dati personali.  
-1.6 **Autorizzazione Scritta**: documento firmato o comunicazione elettronica autenticata che specifichi i diritti concessi dal Owner.
-
-**Plain language:** definizioni tecniche per interpretare la licenza.
-
-## 2. Diritti riservati
-
-2.1 Il Owner detiene tutti i diritti, titoli e interessi sul Codice e su ogni materiale correlato. Nessun diritto è concesso implicitamente o per estoppel.  
-**Plain language:** il proprietario mantiene tutti i diritti; non interpreti nulla come permesso implicito.
-
-## 3. Licenza e limitazioni d'uso (divieto generale)
-
-3.1 Salvo diversa Autorizzazione Scritta, è **espressamente proibito** a qualunque Partecipante:  
- a) copiare, riprodurre o salvare il Codice fuori dal Repository;  
- b) riprodurre, pubblicare, distribuire, trasmettere o rendere disponibile a terzi il Codice;  
- c) eseguire il Codice in ambienti pubblici o commerciali;  
- d) creare opere derivate, adattare, tradurre, trasformare o modificare il Codice;  
- e) effettuare operazioni di reverse engineering, decompilazione, disassemblaggio, o tentativi di ricostruire il codice sorgente da formati binari;  
- f) concedere sublicenze o trasferire il Codice a terzi;  
- g) utilizzare il Codice per creare prodotti o servizi venduti o distribuiti.  
-**Plain language:** non toccare, non condividere, non modificare, non eseguire pubblicamente — a meno che il proprietario non dia un permesso scritto.
-
-## 4. Informazioni Riservate e obbligo di riservatezza
-
-4.1 Il Codice è Informazione Riservata. I Partecipanti devono mantenere la massima riservatezza e adottare misure ragionevoli per prevenire divulgazioni non autorizzate.  
-4.2 Le obbligazioni di riservatezza sopravvivono alla cessazione dell'accesso per 10 (dieci) anni o per la durata massima consentita dalla legge applicabile, se superiore.  
-**Plain language:** considera il codice come segreto aziendale; trattalo come tale anche dopo che perdi accesso.
-
-## 5. Divieto di reverse engineering (clausola specifica)
-
-5.1 È vietato qualsiasi tentativo di reverse engineering o analisi finalizzata a ricavare logica, algoritmi o struttura dal Codice.  
-**Plain language:** non cercare di scoprire come funziona internamente il codice.
-
-## 6. Trattamento dei dati personali (GDPR)
-
-6.1 Se il Repository contiene dati personali, il Owner è il **Data Controller** salvo diversa indicazione espressa in Autorizzazione Scritta. I Partecipanti che processano dati per conto del Owner sono **Data Processor** e devono rispettare le istruzioni documentate del Owner.  
-6.2 Obblighi minimi:  
- a) Principio di minimizzazione — accedere solo ai dati strettamente necessari;  
- b) Sicurezza — misure tecniche e organizzative adeguate per proteggere i dati (controllo accessi, cifratura a riposo/trasporto ove applicabile, logging);  
- c) Cancellazione/portabilità — rispondere a richieste legittime di cancellazione o estrazione su richiesta del Owner;  
- d) Notifica di data breach — notifica immediata (entro 48 ore lavorative) al Owner in caso di violazione che interessi dati personali.  
-**Plain language:** se ci sono dati personali, trattali solo come il proprietario ti ordina; proteggili, cancella se richiesto e segnala subito le violazioni.
-
-## 7. Obblighi di sicurezza operativa
-
-7.1 I Partecipanti devono:  
- a) usare autenticazione forte (2FA) per l'accesso al Repository;  
- b) non memorizzare credenziali o segreti nel Codice; usare secret management;  
- c) controllare l'accesso con il principio del minimo privilegio;  
- d) applicare aggiornamenti e patch per gli strumenti di sviluppo quando richiesto dal Owner.  
-**Plain language:** segui le migliori pratiche di sicurezza: 2FA, non lasciare password nel codice, accesso minimo.
-
-## 8. Obblighi in caso di violazione
-
-8.1 In caso di divulgazione o uso non autorizzato, il Partecipante dovrà:  
- a) interrompere immediatamente l'uso non autorizzato;  
- b) restituire o distruggere tutte le copie del Codice; fornire certificazione scritta di distruzione;  
- c) cooperare con le indagini e mitigare i danni;  
- d) notificare il Owner senza indugio.  
-**Plain language:** se sbagli, ferma tutto, elimina le copie e aiutaci a capire cosa è successo.
-
-## 9. Rimedi e misure cautelari
-
-9.1 Il Owner ha diritto a misure inibitorie (ingiunzioni), risarcimento danni (compensatorio e, nei limiti consentiti, punitivo), rimborso spese legali e qualsiasi altro rimedio previsto dall'ordinamento applicabile.  
-**Plain language:** il proprietario può chiedere al tribunale di fermare la violazione e ottenere risarcimenti.
-
-## 10. Esclusione di licenze implicite
-
-10.1 Nulla in questo documento concede diritti impliciti (compresi brevetti, know-how o licenze territoriali). Ogni diritto deve essere esplicitamente concesso per iscritto.  
-**Plain language:** non presume alcuna licenza implicita — serve sempre un permesso scritto.
-
-## 11. Durata e risoluzione
-
-11.1 Questa Licenza è effettiva dalla data `2025` e rimane valida fino a revoca scritta o trasferimento dei diritti. Le obbligazioni di riservatezza e le clausole sulla proprietà sopravvivono alla risoluzione.  
-**Plain language:** la clausola resta efficace finché non viene revocata; le responsabilità principali sopravvivono.
-
-## 12. Assegnazione dei diritti
-
-12.1 Nessuna parte può assegnare o trasferire diritti o obblighi senza il previo consenso scritto del Owner.  
-**Plain language:** non puoi vendere o cedere i diritti senza permesso.
-
-## 13. Legge applicabile e foro competente
-
-13.1 La presente Licenza è regolata dalla legge di `EUROPA`. Foro competente esclusivo: tribunale ordinario competente per `EUROPA`, salvo diverso obbligo inderogabile.  
-**Plain language:** la legge e il tribunale che decidono eventuali controversie sono quelli indicati.
-
-## 14. Clausola di separabilità
-
-14.1 Qualora una disposizione sia ritenuta invalida o inapplicabile, le restanti rimangono efficaci nella misura massima consentita dalla legge.  
-**Plain language:** se una parte della licenza cade, il resto rimane valido.
-
-## 15. Comunicazioni
-
-15.1 Tutte le comunicazioni relative alla presente devono essere inviate a `{{OWNER_CONTACT_EMAIL}}`.  
-**Plain language:** usa questa email per notifiche ufficiali.
+**Copyright © 2026 Antonio Fuscaldo. All rights reserved.**
 
 ---
 
-## Clausole **più rilevanti in caso di violazione** (e loro effetto)
+## End User License Agreement (EULA)
 
-- **Clausola 3 (Divieto generale)** — vieta l’uso e la distribuzione non autorizzata; base per ingiunzione e risarcimento.
-- **Clausola 4 (Riservatezza)** — obbliga al segreto e dà diritto a misure urgenti se violata.
-- **Clausola 5 (Reverse engineering)** — blocca l’analisi forense del codice; importante per proteggere segreti industriali.
-- **Clausola 9 (Rimedi)** — specifica ingiunzioni, danni e spese legali; abilita azioni immediate in tribunale.
-- **Clausola 6 (GDPR)** — obbligo di notifica e tutela dei dati personali; violazioni possono portare a sanzioni amministrative.
-
----
-
-## Breve check-legale (3-6 punti) per ridurre il rischio di divulgazione accidentale
-
-1. Limita l’accesso per team e individui con principio del minimo privilegio.
-2. Abilita 2FA obbligatorio e SSO aziendale.
-3. Attiva secret scanning e code scanning (GitHub Advanced Security o equivalente).
-4. Implementa Data Loss Prevention (DLP) con scansione dei commit.
-5. Conserva log di accesso e revisioni per auditing.
-
-**Plain language:** poche regole pratiche per ridurre perdite accidentali di codice.
-
-## Firma (esempio)
-
-Owner: `Antonio Fuscaldo`  
-Data: `2025`
+**Effective Date:** 2026-06-01
+**Licensor:** Antonio Fuscaldo
+**Software:** antoniofuscaldo, fubit-dev and all associated source code, assets, documentation,
+configuration files, and related materials (collectively, the "Software")
 
 ---
 
-# Metadata (machine-readable YAML)
+## 1. Grant of License
 
-license_version: "US-CA-1.0"
-owner_name: "Antonio Fuscaldo"
-owner_type: "Individual"
-owner_contact_email: "{{OWNER_CONTACT_EMAIL}}"
-effective_date: "2025"
-jurisdiction: "State of California, USA"
+This Software is the exclusive and proprietary intellectual property of
+**Antonio Fuscaldo** ("Licensor"). No license, right, or interest in the Software
+is granted to any individual or entity except as explicitly set forth in a separate
+written agreement signed by the Licensor.
 
----
-
-###### en
-
-# LICENSE — US / CA
-
-## Executive summary
-
-All rights reserved. The Owner retains all intellectual property rights. Any copying, distribution, modification, public execution, reverse engineering, or derivative works are strictly prohibited unless expressly authorized in writing.
-
-_(Segue versione in italiano per coerenza contrattuale e applicazione locale.)_
-
-## 1. Definitions
-
-1.1 **Owner**: `Antonio Fuscaldo`.  
-1.2 **Repository**: the private source-control repository.  
-1.3 **Code**: all source code, binaries, scripts, configuration, documentation and related materials.  
-1.4 **Participant**: any individual or entity with access to the Repository.  
-1.5 **Confidential Information**: non-public information contained in the Repository.  
-1.6 **Written Authorization**: signed or authenticated electronic permission.
-
-**Plain language:** definizioni per interpretare i termini.
-
-## 2. Reservation of Rights
-
-2.1 Owner retains all rights, title and interest in the Code. No license or rights are conferred except as expressly set forth in a Written Authorization.  
-**Plain language:** il proprietario mantiene tutto; non ci sono licenze implicite.
-
-## 3. Prohibited Conduct (Strict)
-
-3.1 Unless expressly permitted in a Written Authorization, Participants shall not: copy, distribute, sublicense, publish, publicly perform, modify, create derivative works, reverse engineer, decompile, disassemble, use for commercial purposes, or otherwise exploit the Code.  
-**Plain language:** comportamento vietato senza permesso scritto.
-
-## 4. Confidentiality
-
-4.1 Code is Confidential Information. Participants must use reasonable measures to protect confidentiality and shall only access Code on a need-to-know basis.  
-**Plain language:** considera il codice confidenziale e proteggilo.
-
-## 5. Data Protection (CCPA / Privacy)
-
-5.1 If the Repository contains personal information of California residents, Owner is the data controller unless otherwise stated. Participants acting on behalf of Owner are processors and must comply with applicable privacy laws (including CCPA where applicable), implement minimization, data security, and timely breach notification.  
-5.2 Breach notification: immediate notice to Owner and cooperation with remediation.  
-**Plain language:** se ci sono dati personali, segui le norme di privacy e avvisa subito in caso di violazione.
-
-## 6. Security Obligations
-
-6.1 Participants shall: use multi-factor authentication, avoid storing secrets in code, follow least privilege, enable logging and monitoring, and follow Owner security policies.  
-**Plain language:** adotta pratiche di sicurezza standard (MFA, no segreti nel codice, accesso limitato).
-
-## 7. Remedies and Injunctive Relief
-
-7.1 Owner is entitled to injunctive relief, specific performance, compensatory damages, and reasonable attorneys' fees to the extent permitted by law. Liquidated damages may be pursued only where enforceable.  
-**Plain language:** il proprietario può ottenere ordini del tribunale per fermare la violazione e risarcimenti.
-
-## 8. No Implied Licenses
-
-8.1 No patents, copyrights, or other intellectual property rights are granted implicitly. Any license must be explicit and written.  
-**Plain language:** non saltare a conclusioni: serve sempre un permesso scritto.
-
-## 9. Term and Termination
-
-9.1 Effective `2025`. The license remains until revoked. Confidentiality and IP clauses survive termination.  
-**Plain language:** la norma resta valida finché non viene revocata; obblighi principali sopravvivono.
-
-## 10. Assignment
-
-10.1 No assignment or transfer without Owner's prior written consent.  
-**Plain language:** non puoi cedere i diritti.
-
-## 11. Governing Law and Venue
-
-11.1 This Agreement shall be governed by the laws of `US - CA`. Exclusive venue for disputes: courts located in `US - CA`.  
-**Plain language:** la legge e il tribunale che risolvono le dispute sono quelli indicati.
-
-## 12. Attorneys' Fees
-
-12.1 To the extent permitted by law, the prevailing party in an action to enforce this Agreement shall be entitled to recover reasonable attorneys' fees and costs.  
-**Plain language:** chi vince può recuperare le spese legali.
+Absent such a written agreement, no person or entity is permitted to access, use,
+copy, modify, merge, publish, distribute, sublicense, sell, or otherwise exploit
+the Software or any portion thereof.
 
 ---
 
-## Clauses più rilevanti in caso di violazione
+## 2. Restrictions
 
-- **Clausola 3 (Prohibited Conduct)** — fondamento per ingiunzioni e danni.
-- **Clausola 7 (Remedies)** — potere del proprietario di ottenere misure urgenti e risarcimenti.
-- **Clausola 5 (Data Protection)** — obblighi per la privacy con possibile responsabilità amministrativa.
+The following actions are strictly prohibited without the prior explicit written
+consent of the Licensor:
 
-## Note specifiche per California / USA
+1. **Distribution** — You may not distribute, publish, transfer, sublicense, or
+   otherwise make the Software or any derivative thereof available to any third
+   party, whether in source or compiled form, in whole or in part.
 
-- Alcune sanzioni punitive sono soggette a limiti; consultare avvocato locale per liquidated damages e penalty clauses.
-- Per questioni di privacy, valutare compliance CCPA e altre leggi statali applicabili.
+2. **Reproduction** — You may not copy or reproduce the Software or any portion
+   thereof, except for authorized internal backup purposes explicitly permitted in
+   writing by the Licensor.
 
-Owner: `Antonio Fuscaldo` — `2025`  
-Contatti: `{{OWNER_CONTACT_EMAIL}}`
+3. **Modification** — You may not alter, adapt, translate, modify, or create
+   derivative works based upon the Software.
+
+4. **Reverse Engineering** — You may not reverse engineer, decompile, disassemble,
+   deobfuscate, or attempt in any manner to derive the source code, structure,
+   algorithms, or inner workings of the Software or any part thereof.
+
+5. **Analysis** — You may not analyze, benchmark, profile, audit, or study the
+   Software's source code, architecture, or behavior for any purpose other than
+   authorized internal use explicitly permitted in writing by the Licensor.
+
+6. **Public Disclosure** — You may not publish, share, post, or otherwise disclose
+   any portion of the Software's source code, structure, or implementation details
+   in any public or private forum, repository, or platform.
+
+7. **Commercial Use** — You may not use the Software for commercial purposes, offer
+   it as a service, or incorporate it into any product or service without explicit
+   written authorization from the Licensor.
+
+8. **Removal of Notices** — You may not remove, alter, or obscure any proprietary
+   notices, copyright notices, or other legal notices embedded in or affixed to the
+   Software.
 
 ---
 
-AVVERTENZA: questo documento è una bozza di licenza restrittiva. Non costituisce consulenza legale vincolante. Si raccomanda la revisione e l’adattamento da parte di un avvocato qualificato nella giurisdizione scelta prima dell’uso.
+## 3. Confidentiality
+
+The Software, including its source code, documentation, architecture, and any
+related materials, constitutes confidential and proprietary information of the
+Licensor. You agree to maintain strict confidentiality with respect to the Software
+and to take all reasonable precautions to prevent unauthorized access, disclosure,
+or use of the Software.
+
+This confidentiality obligation survives the termination of any agreement between
+the parties and continues indefinitely.
 
 ---
 
-# Metadata (machine-readable JSON)
+## 4. Intellectual Property
 
-{
-"license_version": "INTL-1.0",
-"owner_name": "Antonio Fuscaldo",
-"owner_type": "Individual",
-"owner_contact_email": "{{OWNER_CONTACT_EMAIL}}",
-"effective_date": "2025",
-"jurisdiction": "{{JURISDICTION: choice required}}"
-}
+All intellectual property rights in and to the Software, including but not limited
+to patents, copyrights, trademarks, trade secrets, and moral rights, are and shall
+remain the sole and exclusive property of **Antonio Fuscaldo**.
+
+Nothing in this Agreement shall be construed as granting, by implication, estoppel,
+or otherwise, any license or right to use any intellectual property of the Licensor
+other than as expressly set forth herein.
 
 ---
 
-###### en-international
+## 5. No Warranty
 
-# LICENSE — INTERNATIONAL
+The software is provided "as is", without warranty of any kind, express or
+implied, including but not limited to the warranties of merchantability, fitness
+for a particular purpose, title, and non-infringement. the licensor does not
+warrant that the software will be error-free or meet any particular requirements.
 
-## Executive summary
+---
 
-All rights reserved. The Owner retains exclusive rights on the Code. Any copying, sharing, modification, distribution, reverse engineering or public use is prohibited unless explicitly authorized in writing by the Owner.
+## 6. Limitation of Liability
 
-## 1. Scope and definitions
+To the maximum extent permitted by applicable law, in no event shall the licensor
+be liable for any direct, indirect, incidental, special, exemplary, or
+consequential damages (including, but not limited to, loss of profits, loss of
+data, business interruption, or procurement of substitute goods or services)
+arising out of or in connection with the software or its use, even if the licensor
+has been advised of the possibility of such damages.
 
-1.1 Terms as in other versions: Owner, Repository, Code, Participant, Confidential Information, Written Authorization.  
-**Plain language:** termini base per interpretare la licenza.
+---
 
-## 2. Reservation of rights
+## 7. Termination
 
-2.1 Owner retains all intellectual property rights and proprietary interest in the Code. No license is implied.  
-**Plain language:** il proprietario mantiene tutti i diritti.
+Any unauthorized use of the Software automatically and immediately terminates any
+rights that may have been granted under this Agreement. Upon termination, you must
+immediately cease all use of the Software and permanently destroy all copies,
+partial or complete, in your possession or control.
 
-## 3. Prohibitions
+The Licensor reserves the right to pursue all available legal and equitable remedies
+in the event of a breach of this Agreement.
 
-3.1 Without Written Authorization participants must not: copy, distribute, disclose, perform, modify, derive, reverse-engineer, or exploit the Code.  
-**Plain language:** vietato usare o condividere senza permesso scritto.
+---
 
-## 4. Confidentiality and data protection
+## 8. Governing Law
 
-4.1 Code is Confidential Information. Where personal data is present, the Owner will specify roles (Controller/Processor) in written instructions. Processors must follow instructions and applicable data protection laws. Breach notification timelines and processes must be followed per the applicable jurisdiction.  
-**Plain language:** se ci sono dati personali, il proprietario indicherà come gestirli; segui le leggi locali.
+This Agreement shall be governed by and construed in accordance with the laws of
+Italy, without regard to its conflict of law provisions. Any dispute arising out
+of or relating to this Agreement shall be subject to the exclusive jurisdiction of
+the courts of Italy.
 
-## 5. Security measures
+---
 
-5.1 Participants must implement reasonable technical and organizational measures (access control, authentication, secret management, logging) appropriate to jurisdictional standards.  
-**Plain language:** proteggi il codice seguendo adeguate misure di sicurezza.
+## 9. Entire Agreement
 
-## 6. Remedies
+This Agreement constitutes the entire agreement between the parties with respect
+to the subject matter hereof and supersedes all prior or contemporaneous
+understandings, agreements, representations, or warranties, whether written or
+oral, regarding the Software.
 
-6.1 Owner is entitled to injunctive relief, compensatory damages, and legal costs under applicable law. The exact remedies depend on the chosen jurisdiction.  
-**Plain language:** il proprietario può chiedere al tribunale di fermare la violazione e ottenere risarcimenti, come previsto dalla legge locale.
+Any amendment or modification of this Agreement must be made in writing and signed
+by the Licensor.
 
-## 7. Choice of law and jurisdiction (configurabile)
+---
 
-7.1 This Agreement is governed by the law of `INTERNATIONAL`. Parties submit to the exclusive jurisdiction of the competent courts of `INTERNATIONAL`.  
-**Plain language:** specifica la legge e il tribunale che valgono.
+## Contact
 
-## 8. Survivability and severability
+For licensing inquiries or permissions, contact the Licensor directly.
 
-8.1 Confidentiality and IP provisions survive termination. If any clause is invalidated, others remain in force.  
-**Plain language:** le parti valide restano efficaci anche se qualcosa è annullato.
+**_[Antonio Fuscaldo - Fubit](mailto:fubit-dev@protonmail.com)_**.
 
-## 9. Notices
+---
 
-9.1 Notices to Owner: `{{OWNER_CONTACT_EMAIL}}`.  
-**Plain language:** usa questa email per notifiche.
+## Contratto di licenza per software proprietario
 
-Owner: `Antonio Fuscaldo` — `2025`
+**Copyright © 2026 Antonio Fuscaldo. Tutti i diritti riservati.**
+
+---
+
+## Contratto di licenza con l'utente finale (EULA)
+
+**Data di entrata in vigore:** 01/06/2026
+**Licenziante:** Antonio Fuscaldo
+**Software:** antoniofuscaldo, fubit-dev e tutto il codice sorgente, le risorse, la documentazione, i file di configurazione e i materiali correlati associati (collettivamente, il “Software”)
+
+---
+
+## 1. Concessione della licenza
+
+Il presente Software costituisce proprietà intellettuale esclusiva e proprietaria di **Antonio Fuscaldo** (“Licenziante”). Nessuna licenza, diritto o interesse relativo al Software
+viene concesso a persone fisiche o giuridiche, salvo quanto espressamente previsto in un accordo scritto separato firmato dal Licenziante.
+
+In assenza di tale accordo scritto, nessuna persona fisica o giuridica è autorizzata ad accedere, utilizzare,
+copiare, modificare, unire, pubblicare, distribuire, concedere in sublicenza, vendere o sfruttare in altro modo
+il Software o qualsiasi sua parte.
+
+---
+
+## 2. Restrizioni
+
+Le seguenti azioni sono severamente vietate senza il previo consenso scritto
+esplicito del Licenziante:
+
+1. **Distribuzione** — Non è consentito distribuire, pubblicare, trasferire, concedere in sublicenza o rendere in altro modo disponibile il Software o qualsiasi suo derivato a terzi, sia in forma sorgente che compilata, in tutto o in parte.
+
+2. **Riproduzione** — Non è consentito copiare o riprodurre il Software o qualsiasi parte dello stesso, salvo che per scopi di backup interno autorizzati ed espressamente consentiti per
+   iscritto dal Licenziante.
+
+3. **Modifica** — Non è consentito alterare, adattare, tradurre, modificare o creare opere derivate basate sul Software.
+
+4. **Reverse engineering** — Non è consentito effettuare il reverse engineering, decompilare, disassemblare,
+   deoffuscare o tentare in alcun modo di ricavare il codice sorgente, la struttura,
+   gli algoritmi o il funzionamento interno del Software o di qualsiasi sua parte.
+
+5. **Analisi** — Non è consentito analizzare, sottoporre a benchmark, profilare, verificare o studiare il codice sorgente, l'architettura o il comportamento del Software per scopi diversi dall'uso interno autorizzato esplicitamente per iscritto dal Licenziante.
+
+6. **Divulgazione pubblica** — Non è consentito pubblicare, condividere, postare o divulgare in altro modo
+   alcuna parte del codice sorgente, della struttura o dei dettagli di implementazione del Software
+   in alcun forum, repository o piattaforma pubblica o privata.
+
+7. **Uso commerciale** — Non è consentito utilizzare il Software per scopi commerciali, offrirlo
+   come servizio o incorporarlo in alcun prodotto o servizio senza l'esplicita
+   autorizzazione scritta del Licenziante.
+
+8. **Rimozione delle note** — Non è consentito rimuovere, alterare o oscurare alcuna nota di proprietà,
+   nota sul copyright o altra nota legale incorporata o apposta sul
+   Software.
+
+---
+
+## 3. Riservatezza
+
+Il Software, compresi il codice sorgente, la documentazione, l'architettura e qualsiasi
+materiale correlato, costituisce informazione riservata e proprietaria del
+Licenziante. L'utente si impegna a mantenere la massima riservatezza in merito al Software
+e ad adottare tutte le precauzioni ragionevoli per impedire l'accesso non autorizzato, la divulgazione
+o l'uso del Software.
+
+Il presente obbligo di riservatezza sopravvive alla risoluzione di qualsiasi accordo tra
+le parti e continua a tempo indeterminato.
+
+---
+
+## 4. Proprietà intellettuale
+
+Tutti i diritti di proprietà intellettuale relativi al Software, inclusi ma non limitati
+a brevetti, diritti d'autore, marchi commerciali, segreti commerciali e diritti morali, sono e
+rimarranno di proprietà esclusiva di **Antonio Fuscaldo**.
+
+Nessuna disposizione del presente Contratto potrà essere interpretata come concessione, per implicazione, preclusione,
+o in altro modo, di alcuna licenza o diritto di utilizzare qualsiasi proprietà intellettuale del Licenziante
+diversamente da quanto espressamente stabilito nel presente documento.
+
+---
+
+## 5. Esclusione di garanzia
+
+Il software viene fornito “così com'è”, senza alcun tipo di garanzia, esplicita o
+implicita, incluse, a titolo esemplificativo ma non esaustivo, le garanzie di commerciabilità, idoneità
+per un particolare scopo, titolarità e non violazione. il licenziatario non
+garantisce che il software sia privo di errori o soddisfi requisiti particolari.
+
+---
+
+## 6. Limitazione di responsabilità
+
+Nella misura massima consentita dalla legge applicabile, in nessun caso il licenziatore
+sarà responsabile per danni diretti, indiretti, incidentali, speciali, esemplari o
+conseguenti (incluse, a titolo esemplificativo ma non esaustivo, perdite di profitti, perdite di
+dati, interruzione dell'attività o acquisto di beni o servizi sostitutivi)
+derivanti da o in relazione al software o al suo utilizzo, anche se il licenziatario
+è stato informato della possibilità di tali danni.
+
+---
+
+## 7. Risoluzione
+
+Qualsiasi utilizzo non autorizzato del Software comporta la risoluzione automatica e immediata di tutti i
+diritti eventualmente concessi ai sensi del presente Contratto. In caso di risoluzione, l'utente è tenuto a
+cessare immediatamente ogni utilizzo del Software e a distruggere definitivamente tutte le copie,
+parziali o complete, in suo possesso o sotto il suo controllo.
+
+Il Licenziante si riserva il diritto di avvalersi di tutti i rimedi legali ed equitativi disponibili
+in caso di violazione del presente Contratto.
+
+---
+
+## 8. Legge applicabile
+
+Il presente Contratto sarà regolato e interpretato in conformità con le leggi
+italiane, indipendentemente dalle disposizioni in materia di conflitto di leggi. Qualsiasi controversia derivante
+dal o relativa al presente Contratto sarà soggetta alla giurisdizione esclusiva dei
+tribunali italiani.
+
+---
+
+## 9. Intero Accordo
+
+Il presente Accordo costituisce l'intero accordo tra le parti in relazione
+all'oggetto dello stesso e sostituisce tutti i precedenti o contemporanei
+intesi, accordi, dichiarazioni o garanzie, sia scritti che
+orali, relativi al Software.
+
+Qualsiasi emendamento o modifica del presente Accordo deve essere effettuato per iscritto e firmato
+dal Licenziante.
+
+---
+
+## Contatti
+
+Per richieste relative alle licenze o alle autorizzazioni, contattare direttamente il concedente della licenza.
+
+**_[Antonio Fuscaldo - Fubit](mailto:fubit-dev@protonmail.com)_**.
